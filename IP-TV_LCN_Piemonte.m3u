@@ -39,8 +39,9 @@ https://webstream.multistream.it/memfs/a3195c96-f884-4c74-924f-2648814fc0b5.m3u8
 https://stream10.xdevel.com/video0s977089-1792/stream/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/vco-azzurra-tv.png"tvg-chno="17"group-title="Piemonte":http-user-agent="",VCO Azzurra TV
 https://ed04.top-ix.org/avtvlive/azzurra/streaming/playlist.m3u8
-#EXTINF:-1 tvg-name="CANALE ITALIA"tvg-id=""tvg-logo="https://canaleitalia.it/wp-content/uploads/2022/06/logo-canale-italia-streaming.png"tvg-chno="18"group-title="Piemonte":http-user-agent="",CANALE ITALIA
-https://canaleitalia.it/diretta-live-streaming/canale-italia/Playlist
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://canaleitalia.it/wp-content/uploads/2022/06/logo-canale-italia-streaming.png"tvg-chno="18"group-title="Piemonte":http-user-agent="HbbTV/1.6.1",CANALE ITALIA
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://canaleitalia.streamcloud.it/embed/live/28591152-e3c0-49b0-94a8-0d3e18125ca8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/video-novara.png"tvg-chno="19"group-title="Piemonte":http-user-agent="",Video Novara
 https://ed04.top-ix.org/avtvlive/videonovara/streaming/chunklist_w1517872620.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="20Mediaset.it"tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/20mediaset.png"tvg-chno="20"group-title="Mediaset":http-user-agent="HbbTV/1.6.1",20 Mediaset
@@ -107,8 +108,6 @@ http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&force
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv
 #EXTINF:-1 tvg-name=""tvg-id="Frisbee.it"tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/frisbee.png"tvg-chno="44"group-title="Discovery":http-user-agent="",Frisbee
 https://amg16146-wbdi-amg16146c7-samsung-it-1840.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-frisbee-samsungit/playlist.m3u8
-#EXTINF:-1 tvg-name="BOING PLUS"tvg-id=""tvg-logo=""tvg-chno="45"group-title="":http-user-agent="",BOING PLUS
-
 #EXTINF:-1 tvg-name=""tvg-id="Cartoonito.it"tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/cartoonito.png"tvg-chno="46"group-title="Mediaset":http-user-agent="HbbTV/1.6.1",Cartoonito
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live02-seg.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/index.m3u8
@@ -127,13 +126,13 @@ https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnt
 https://live02-seg.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/index.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="DMAX.it"tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/dmax.png"tvg-chno="52"group-title="Discovery":http-user-agent="",DMAX
 https://amg16146-wbdi-amg16146c8-samsung-it-1841.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-dmax-samsungit/playlist.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="53"group-title="":http-user-agent="",
-
+#EXTINF:-1 tvg-name=""tvg-id="CasaItalia53.it"tvg-logo="http://odmsto.com/uploads/tv_image/sm/casa-italia-53.png"tvg-chno="53"group-title="Altri Canali Nazionali":http-user-agent="",Casa Italia 53
+https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="RaiStoria.it"tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/raistoria.png"tvg-chno="54"group-title="Rai":http-user-agent="HbbTV/1.6.1",Rai Storia
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1 tvg-name=""tvg-id="MediasetExtra.it"tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/mediasetextra.png"tvg-chno="55"group-title="Mediaset":http-user-agent="HbbTV/1.6.1",Mediaset Extra
-#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+#EXTINF:-1 tvg-name=""tvg-id="MediasetExtra.it"tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/mediasetextra.png"tvg-chno="55"group-title="Mediaset":http-user-agent="53",Mediaset Extra
+#EXTVLCOPT:http-user-agent=53
 https://live02-seg.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/index.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="Home&GardenTV.it"tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/homegardentv.png"tvg-chno="56"group-title="Discovery":http-user-agent="",HGTV - Home&Garden
 https://amg16146-wbdi-amg16146c9-samsung-it-1842.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-hgtv-samsungit/playlist.m3u8
@@ -151,8 +150,6 @@ https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/silive24.smil/playlist.m3u8
 https://5a1178b42cc03.streamlock.net/travel/travel/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="DonnaTV.it"tvg-logo="http://odmsto.com/uploads/tv_image/sm/donna-tv.png"tvg-chno="62"group-title="Altri Canali Nazionali":http-user-agent="",Donna Tv
 https://5a1178b42cc03.streamlock.net/donnatv/donnatv/playlist.m3u8
-#EXTINF:-1 tvg-name="CANALE 63"tvg-id=""tvg-logo=""tvg-chno="63"group-title="":http-user-agent="",
-
 #EXTINF:-1 tvg-name=""tvg-id="SuperTennis.it"tvg-logo="http://odmsto.com/uploads/tv_image/sm/supertennis.png"tvg-chno="64"group-title="Canali Sport Italiani":http-user-agent="",SuperTennis
 https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="AlmaTv.it"tvg-logo="http://odmsto.com/uploads/tv_image/sm/alma-tv.png"tvg-chno="65"group-title="Altri Canali Nazionali":http-user-agent="",ALMA TV
@@ -169,541 +166,27 @@ https://5f22d76e220e1.streamlock.net/canale6/canale6/playlist.m3u8
 https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="RadioItaliaTV.it"tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/radioitaliatv.png"tvg-chno="70"group-title="Radio":http-user-agent="",RadioItaliaTV
 https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8
-#EXTINF:-1 tvg-name="CANALE ITALIA PIEMONTE"tvg-id=""tvg-logo=""tvg-chno="71"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="72"group-title="":http-user-agent="",
-
 #EXTINF:-1 tvg-name=""tvg-id="RadioBrunoTV.it"tvg-logo="http://odmsto.com/uploads/tv_image/sm/radio-bruno-tv.png"tvg-chno="73"group-title="Canali Musicali":http-user-agent="",Radio Bruno TV
 https://router.xdevel.com/video0s975758-473/stream/playlist.m3u8
-#EXTINF:-1 tvg-name="PRIMANEWS PIEMONTE"tvg-id=""tvg-logo=""tvg-chno="74"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="TOP CALCIO 24"tvg-id=""tvg-logo=""tvg-chno="75"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="VALENZA.TV"tvg-id=""tvg-logo=""tvg-chno="76"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="6 SR NEWS"tvg-id=""tvg-logo=""tvg-chno="77"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="MOTORI TV"tvg-id=""tvg-logo=""tvg-chno="78"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="6 SR STILE"tvg-id=""tvg-logo=""tvg-chno="79"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="ONDA NOVARA TV"tvg-id=""tvg-logo=""tvg-chno="80"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="TELEGRANDA"tvg-id=""tvg-logo=""tvg-chno="81"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="GIOCABET.TV"tvg-id=""tvg-logo=""tvg-chno="82"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="PIEMONTE +"tvg-id=""tvg-logo=""tvg-chno="83"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="TELEREPORTER"tvg-id=""tvg-logo=""tvg-chno="84"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="LOMBARDIA TV 80"tvg-id=""tvg-logo=""tvg-chno="85"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="6 SR MOTORI"tvg-id=""tvg-logo=""tvg-chno="86"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="RBE-TV"tvg-id=""tvg-logo=""tvg-chno="87"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="88TV "tvg-id=""tvg-logo=""tvg-chno="88"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="6 SR 055TV"tvg-id=""tvg-logo=""tvg-chno="89"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="TRS"tvg-id=""tvg-logo=""tvg-chno="90"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="VALPADANA TV"tvg-id=""tvg-logo=""tvg-chno="91"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="TELECONTATTO 2"tvg-id=""tvg-logo=""tvg-chno="92"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="ITALIA 8 PRESTIGE"tvg-id=""tvg-logo=""tvg-chno="93"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="6 SR MUSICA"tvg-id=""tvg-logo=""tvg-chno="94"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="LIFEZONE"tvg-id=""tvg-logo=""tvg-chno="95"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="RADIO BIRIKINA TV"tvg-id=""tvg-logo=""tvg-chno="96"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="TA TELEANTENNA.IT"tvg-id=""tvg-logo=""tvg-chno="97"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="RADIO 4 YOU TV 3"tvg-id=""tvg-logo=""tvg-chno="98"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="TELE STELLA"tvg-id=""tvg-logo=""tvg-chno="99"group-title="":http-user-agent="",
-
+#EXTINF:-1 tvg-name=""tvg-id="Motoritv.it"tvg-logo="http://odmsto.com/uploads/tv_image/sm/motori-tv.png"tvg-chno="78"group-title="Canali Sport Italiani":http-user-agent="",Motori Tv
+https://5f22d76e220e1.streamlock.net/servizio01/servizio01/playlist.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="Ondanovaratv.it"tvg-logo="http://odmsto.com/uploads/tv_image/sm/onda-novara-tv.png"tvg-chno="80"group-title="Lombardia":http-user-agent="",Onda Novara TV
+https://585b674743bbb.streamlock.net/9006/9006/playlist.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="GiocabetTv.it"tvg-logo="http://odmsto.com/uploads/tv_image/sm/giocabet-tv.jpg"tvg-chno="82"group-title="Canali Sport Italiani":http-user-agent="",GiocaBet Tv
+https://live1.giocabet.tv/stream/1/index.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="Telereporter.it"tvg-logo="http://odmsto.com/uploads/tv_image/sm/telereporter.png"tvg-chno="84"group-title="Lombardia":http-user-agent="",Telereporter
+https://5f22d76e220e1.streamlock.net/telereporter/telereporter/playlist.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="LombardiaTV.it"tvg-logo="http://odmsto.com/uploads/tv_image/sm/lombardia-tv.png"tvg-chno="85"group-title="Lombardia":http-user-agent="",Lombardia Tv
+https://5db313b643fd8.streamlock.net/lmbiatv/lmbiatv/playlist.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="RadioBirikinaTV.it"tvg-logo="http://odmsto.com/uploads/tv_image/sm/radio-birikina-tv.png"tvg-chno="96"group-title="Canali Musicali (Web Radio)":http-user-agent="",Radio Birikina TV
+https://56b50ada2d659.streamlock.net/RadioBirikinaTV/livestream/playlist.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="Radio4YouTv.it"tvg-logo="http://odmsto.com/uploads/tv_image/sm/radio-4-you-tv.png"tvg-chno="98"group-title="Canali Musicali (Web Radio)":http-user-agent="",Radio 4 You Tv
+https://streamsrv2.nets-sr.com:19360/4youtv/4youtv.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/rai-1-prtwes3x26ld.png"tvg-chno="100"group-title="Canali RAI":http-user-agent="",Rai 1 test
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=rainet/4.0.5
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/rai-4k.png"tvg-chno="101"group-title="Canali RAI":http-user-agent="HbbTV/1.6.1",Rai 4K
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://raievent10-elem-live.akamaized.net/hls/live/619189/raievent10/raievent10/playlist.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="102"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="103 Rai 3 HD"tvg-id=""tvg-logo=""tvg-chno="103"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="104 Rete 4 HD"tvg-id=""tvg-logo=""tvg-chno="104"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="105 Canale 5 HD"tvg-id=""tvg-logo=""tvg-chno="105"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="106 Italia 1 HD"tvg-id=""tvg-logo=""tvg-chno="106"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="107 LA7 HD"tvg-id=""tvg-logo=""tvg-chno="107"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="108 TV8 HD"tvg-id=""tvg-logo=""tvg-chno="108"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="109 NOVE"tvg-id=""tvg-logo=""tvg-chno="109"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="110"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="RTV"tvg-id=""tvg-logo=""tvg-chno="111"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="STUDIO PIU' ON AIR"tvg-id=""tvg-logo=""tvg-chno="112"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="113"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="TELERADIOPACE 4"tvg-id=""tvg-logo=""tvg-chno="114"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="115 NEWS"tvg-id=""tvg-logo=""tvg-chno="115"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="SOCIAL CHANNEL"tvg-id=""tvg-logo=""tvg-chno="116"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="120 20Mediaset HD"tvg-id=""tvg-logo=""tvg-chno="120"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="121 ITALIA 121"tvg-id=""tvg-logo=""tvg-chno="121"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="122 CUSANO ITALIA TV"tvg-id=""tvg-logo=""tvg-chno="122"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="123 ITALIA CHANNEL"tvg-id=""tvg-logo=""tvg-chno="123"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="124 ARTE ITALIA 124"tvg-id=""tvg-logo=""tvg-chno="124"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="125 ARTE ITALIA 125"tvg-id=""tvg-logo=""tvg-chno="125"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="126 ITALIA 126"tvg-id=""tvg-logo=""tvg-chno="126"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="127 ITALIA 127"tvg-id=""tvg-logo=""tvg-chno="127"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="128 GOLD TV ITALIA"tvg-id=""tvg-logo=""tvg-chno="128"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="129 LA 4 ITALIA"tvg-id=""tvg-logo=""tvg-chno="129"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="130 CHANNEL 24"tvg-id=""tvg-logo=""tvg-chno="130"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="131 RETE ITALIA"tvg-id=""tvg-logo=""tvg-chno="131"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="132 LINEAGEM"tvg-id=""tvg-logo=""tvg-chno="132"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="133 ArteInvestimenti"tvg-id=""tvg-logo=""tvg-chno="133"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="134 ITALIA 134"tvg-id=""tvg-logo=""tvg-chno="134"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="135 ITALIA 135"tvg-id=""tvg-logo=""tvg-chno="135"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="136 ITALIA 136"tvg-id=""tvg-logo=""tvg-chno="136"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="137 LUXURY CHANNEL 137"tvg-id=""tvg-logo=""tvg-chno="137"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="138 TELECAMPIONE"tvg-id=""tvg-logo=""tvg-chno="138"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="139 DELUXE 139"tvg-id=""tvg-logo=""tvg-chno="139"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="140 STARMARKET"tvg-id=""tvg-logo=""tvg-chno="140"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="141 Italia 141 (Italia 53)"tvg-id=""tvg-logo=""tvg-chno="141"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="142 ITALIA 142 (ARTE ITALIA 124)"tvg-id=""tvg-logo=""tvg-chno="142"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="143 ITALIA 143 (ITALIA 135)"tvg-id=""tvg-logo=""tvg-chno="143"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="144 CENTRO SERENA"tvg-id=""tvg-logo=""tvg-chno="144"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="145 PADRE PIO TV"tvg-id=""tvg-logo=""tvg-chno="145"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="146 Rai Scuola HD"tvg-id=""tvg-logo=""tvg-chno="146"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="147 FIRE TV"tvg-id=""tvg-logo=""tvg-chno="147"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="148 ITALIA 148 (ITALIA 127)"tvg-id=""tvg-logo=""tvg-chno="148"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="149 PRIMASET"tvg-id=""tvg-logo=""tvg-chno="149"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="150 Italia 150 (Italia 53)"tvg-id=""tvg-logo=""tvg-chno="150"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="151 EQUtv"tvg-id=""tvg-logo=""tvg-chno="151"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="152 Tesory Channel"tvg-id=""tvg-logo=""tvg-chno="152"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="153 TV 153"tvg-id=""tvg-logo=""tvg-chno="153"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="154 ITALIA 154 (ITALIA 136)"tvg-id=""tvg-logo=""tvg-chno="154"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="155 ITALIA 155 (ITALIA 134)"tvg-id=""tvg-logo=""tvg-chno="155"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="156 ITALIA 156 (ARTE ITALIA 124)"tvg-id=""tvg-logo=""tvg-chno="156"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="157 FASCINO TV (FASCINO TV 157 HD)"tvg-id=""tvg-logo=""tvg-chno="157"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="158 RADIO KISS KISS TV"tvg-id=""tvg-logo=""tvg-chno="158"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="159 ITALIA 159 (ITALIA 127)"tvg-id=""tvg-logo=""tvg-chno="159"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="160 ITALIA 160 (ARTE ITALIA 125)"tvg-id=""tvg-logo=""tvg-chno="160"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="161 ITALIA 161 (ITALIA 121)"tvg-id=""tvg-logo=""tvg-chno="161"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="162 CANALE 162 (ZOEEK TV 162)"tvg-id=""tvg-logo=""tvg-chno="162"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="163 CANALE 163 (ODEON 24)"tvg-id=""tvg-logo=""tvg-chno="163"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="164 ITALIA 164 (ITALIA 134)"tvg-id=""tvg-logo=""tvg-chno="164"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="165 Canale 165 (FASCINO TV 165)"tvg-id=""tvg-logo=""tvg-chno="165"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="166 ORLERTV"tvg-id=""tvg-logo=""tvg-chno="166"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="167 VH1"tvg-id=""tvg-logo=""tvg-chno="167"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="168 CANALE168"tvg-id=""tvg-logo=""tvg-chno="168"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="169 CANALE169"tvg-id=""tvg-logo=""tvg-chno="169"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="170 PRIMA FREE"tvg-id=""tvg-logo=""tvg-chno="170"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="171"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="172"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="173"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="174"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="SESTA RETE AT"tvg-id=""tvg-logo=""tvg-chno="175"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="200 Test HEVC main10"tvg-id=""tvg-logo=""tvg-chno="200"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="201 RaiPlay"tvg-id=""tvg-logo=""tvg-chno="201"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="202 Rai Radio 2 Visual HD"tvg-id=""tvg-logo=""tvg-chno="202"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="203 RaiPlay Sound"tvg-id=""tvg-logo=""tvg-chno="203"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="204 PROMO FOOD (CHANNEL 24)"tvg-id=""tvg-logo=""tvg-chno="204"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="205 PROMO TRAVEL (STARMARKET)"tvg-id=""tvg-logo=""tvg-chno="205"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="206 PROMO HOME (RETE ITALIA)"tvg-id=""tvg-logo=""tvg-chno="206"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="207 PROMO LIVING (LUXURY CHANNEL 137)"tvg-id=""tvg-logo=""tvg-chno="207"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="208"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="209 PROMO SHOPPING"tvg-id=""tvg-logo=""tvg-chno="209"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="220 AP CHANNEL (269ITALIA)"tvg-id=""tvg-logo=""tvg-chno="220"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="221 ITCHANNEL"tvg-id=""tvg-logo=""tvg-chno="221"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="225 Teleshopping (GENIUS 240)"tvg-id=""tvg-logo=""tvg-chno="225"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="226 WELCOME IN"tvg-id=""tvg-logo=""tvg-chno="226"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="227"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="228 Tesory Channel"tvg-id=""tvg-logo=""tvg-chno="228"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="229 LA7d HD"tvg-id=""tvg-logo=""tvg-chno="229"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="230 CANALE 230 (LUXURY CHANNEL 137)"tvg-id=""tvg-logo=""tvg-chno="230"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="231 UNO TV (PRIMA FREE)"tvg-id=""tvg-logo=""tvg-chno="231"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="232 CANALE 232"tvg-id=""tvg-logo=""tvg-chno="232"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="233 RTL 102.5 CALIENTE"tvg-id=""tvg-logo=""tvg-chno="233"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="234 CUSANO NEWS 7"tvg-id=""tvg-logo=""tvg-chno="234"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="235 CANALE 235"tvg-id=""tvg-logo=""tvg-chno="235"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="236"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="237 CANALE 237 (LUXURY CHANNEL 137)"tvg-id=""tvg-logo=""tvg-chno="237"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="238"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="239"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="240 GENIUS 240"tvg-id=""tvg-logo=""tvg-chno="240"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="241 ITALIA 241 (ITALIA 126)"tvg-id=""tvg-logo=""tvg-chno="241"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="242 SICILIA 242"tvg-id=""tvg-logo=""tvg-chno="242"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="243"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="244 BABEL"tvg-id=""tvg-logo=""tvg-chno="244"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="245 PAROLE DI VITA"tvg-id=""tvg-logo=""tvg-chno="245"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="246 Radio 24"tvg-id=""tvg-logo=""tvg-chno="246"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="247"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="248 TCI"tvg-id=""tvg-logo=""tvg-chno="248"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="249"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="250"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="251"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="252 RADIO LIBERTÀ"tvg-id=""tvg-logo=""tvg-chno="252"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="253 Radio Radio TV"tvg-id=""tvg-logo=""tvg-chno="253"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="254"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="255 Maria Vision"tvg-id=""tvg-logo=""tvg-chno="255"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="256"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="257 GAMBERO ROSSO"tvg-id=""tvg-logo=""tvg-chno="257"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="258 RADIOFRECCIA"tvg-id=""tvg-logo=""tvg-chno="258"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="259 BIKE"tvg-id=""tvg-logo=""tvg-chno="259"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="260 URANIA"tvg-id=""tvg-logo=""tvg-chno="260"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="261"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="262 Byoblu"tvg-id=""tvg-logo=""tvg-chno="262"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="263"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="264 NTR RADIO 264 MUSIC TV"tvg-id=""tvg-logo=""tvg-chno="264"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="265 RDS Social TV"tvg-id=""tvg-logo=""tvg-chno="265"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="266 RADIO ZETA"tvg-id=""tvg-logo=""tvg-chno="266"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="268"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="268 CANALE 268"tvg-id=""tvg-logo=""tvg-chno="268"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="269 269ITALIA (CANALE 269 AP CHANNEL)"tvg-id=""tvg-logo=""tvg-chno="269"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="70-80.TV"tvg-id=""tvg-logo=""tvg-chno="351"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="410 BUSINESS24"tvg-id=""tvg-logo=""tvg-chno="410"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="411"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="412 AUTOMOTO"tvg-id=""tvg-logo=""tvg-chno="412"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="441 PREMIO CLUB"tvg-id=""tvg-logo=""tvg-chno="441"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="454 PREMIO CLUB (ITALIAN FISHING TV)"tvg-id=""tvg-logo=""tvg-chno="454"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="455 ARTE E CULTURA (ARTE ATELIER)"tvg-id=""tvg-logo=""tvg-chno="455"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="501 Rai 1 HD (provvisorio)"tvg-id=""tvg-logo=""tvg-chno="501"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="502 Rai 2 HD (provvisorio)"tvg-id=""tvg-logo=""tvg-chno="502"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="503 Rai 3 HD (provvisorio)"tvg-id=""tvg-logo=""tvg-chno="503"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="504 Rete4 HD"tvg-id=""tvg-logo=""tvg-chno="504"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="505 Canale5 HD"tvg-id=""tvg-logo=""tvg-chno="505"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="506 Italia1 HD"tvg-id=""tvg-logo=""tvg-chno="506"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="507 LA7 HD"tvg-id=""tvg-logo=""tvg-chno="507"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="508 TV8 HD"tvg-id=""tvg-logo=""tvg-chno="508"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="509 NOVE"tvg-id=""tvg-logo=""tvg-chno="509"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="520 20Mediaset HD"tvg-id=""tvg-logo=""tvg-chno="520"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="521 Rai 4 HD"tvg-id=""tvg-logo=""tvg-chno="521"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="522 Iris HD"tvg-id=""tvg-logo=""tvg-chno="522"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="523 Rai 5 HD"tvg-id=""tvg-logo=""tvg-chno="523"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="524 Rai Movie HD"tvg-id=""tvg-logo=""tvg-chno="524"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="525 Rai Premium HD"tvg-id=""tvg-logo=""tvg-chno="525"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="526"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="527 27Twentyseven HD"tvg-id=""tvg-logo=""tvg-chno="527"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="528 TV2000"tvg-id=""tvg-logo=""tvg-chno="528"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="529 LA7d HD"tvg-id=""tvg-logo=""tvg-chno="529"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="530 La5 HD"tvg-id=""tvg-logo=""tvg-chno="530"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="531 RADIO ZETA"tvg-id=""tvg-logo=""tvg-chno="531"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="532 RADIOFRECCIA"tvg-id=""tvg-logo=""tvg-chno="532"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="533 RTL 102.5 CALIENTE"tvg-id=""tvg-logo=""tvg-chno="533"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="534 Cine34 HD"tvg-id=""tvg-logo=""tvg-chno="534"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="535 Focus HD"tvg-id=""tvg-logo=""tvg-chno="535"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="536 RTL 102.5"tvg-id=""tvg-logo=""tvg-chno="536"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="537 Warner TV"tvg-id=""tvg-logo=""tvg-chno="537"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="538"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="539 TOPcrime HD"tvg-id=""tvg-logo=""tvg-chno="539"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="540 Boing HD"tvg-id=""tvg-logo=""tvg-chno="540"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="541"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="542 Rai Gulp HD"tvg-id=""tvg-logo=""tvg-chno="542"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="543 Rai YoYo HD"tvg-id=""tvg-logo=""tvg-chno="543"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="544"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="545 Boing Plus"tvg-id=""tvg-logo=""tvg-chno="545"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="546 Cartoonito HD"tvg-id=""tvg-logo=""tvg-chno="546"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="547"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="548 Rai News 24"tvg-id=""tvg-logo=""tvg-chno="548"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="549 Mediaset Italia2 HD"tvg-id=""tvg-logo=""tvg-chno="549"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="550"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="551 TGCOM24 HD"tvg-id=""tvg-logo=""tvg-chno="551"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="554 Rai Storia HD"tvg-id=""tvg-logo=""tvg-chno="554"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="556 Mediaset Extra HD"tvg-id=""tvg-logo=""tvg-chno="556"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="557"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="558 Rai Sport HD"tvg-id=""tvg-logo=""tvg-chno="558"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="559"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="560 SPORTITALIA HD"tvg-id=""tvg-logo=""tvg-chno="560"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="561 TRAVEL TV"tvg-id=""tvg-logo=""tvg-chno="561"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="566 RADIO 105"tvg-id=""tvg-logo=""tvg-chno="566"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="567 R101 TV"tvg-id=""tvg-logo=""tvg-chno="567"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="568"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="569 Deejay TV HD"tvg-id=""tvg-logo=""tvg-chno="569"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="570 RadioItaliaTV"tvg-id=""tvg-logo=""tvg-chno="570"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="801 Rai 3 TGR Valle d'Aosta"tvg-id=""tvg-logo=""tvg-chno="801"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="802 Rai 3 TGR Piemonte"tvg-id=""tvg-logo=""tvg-chno="802"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="803 Rai 3 TGR Liguria"tvg-id=""tvg-logo=""tvg-chno="803"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="804 Rai 3 TGR Lombardia"tvg-id=""tvg-logo=""tvg-chno="804"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="805 Rai 3 TGR Veneto"tvg-id=""tvg-logo=""tvg-chno="805"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="806 Rai 3 TGR Trentino Alto Adige Bolzano"tvg-id=""tvg-logo=""tvg-chno="806"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="807 Rai 3 TGR Trentino Alto Adige Trento"tvg-id=""tvg-logo=""tvg-chno="807"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="808 Rai 3 TGR Südtirol"tvg-id=""tvg-logo=""tvg-chno="808"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="809 Rai 3 TGR Friuli Venezia Giulia"tvg-id=""tvg-logo=""tvg-chno="809"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="810 Rai 3 TGR Furlanija Krajina (Rai 3 Bis)"tvg-id=""tvg-logo=""tvg-chno="810"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="811 Rai 3 TGR Emilia-Romagna"tvg-id=""tvg-logo=""tvg-chno="811"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="812 Rai 3 TGR Toscana"tvg-id=""tvg-logo=""tvg-chno="812"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="813 Rai 3 TGR Marche"tvg-id=""tvg-logo=""tvg-chno="813"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="814 Rai 3 TGR Umbria"tvg-id=""tvg-logo=""tvg-chno="814"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="815 Rai 3 TGR Lazio"tvg-id=""tvg-logo=""tvg-chno="815"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="816 Rai 3 TGR Abruzzo"tvg-id=""tvg-logo=""tvg-chno="816"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="817 Rai 3 TGR Molise"tvg-id=""tvg-logo=""tvg-chno="817"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="818 Rai 3 TGR Campania"tvg-id=""tvg-logo=""tvg-chno="818"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="819 Rai 3 TGR Puglia"tvg-id=""tvg-logo=""tvg-chno="819"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="820 Rai 3 TGR Basilicata"tvg-id=""tvg-logo=""tvg-chno="820"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="821 Rai 3 TGR Calabria"tvg-id=""tvg-logo=""tvg-chno="821"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="822 Rai 3 TGR Sardegna"tvg-id=""tvg-logo=""tvg-chno="822"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="823 Rai 3 TGR Sicilia"tvg-id=""tvg-logo=""tvg-chno="823"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="829 LA7 Test"tvg-id=""tvg-logo=""tvg-chno="829"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="830"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="831 RTV San Marino"tvg-id=""tvg-logo=""tvg-chno="831"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno="832"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="833 SUPERSIX"tvg-id=""tvg-logo=""tvg-chno="833"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="888 Caccia e Pesca"tvg-id=""tvg-logo=""tvg-chno="888"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name="899 Radio TV Serie A con RDS"tvg-id=""tvg-logo=""tvg-chno="899"group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="":http-user-agent="",
-
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://tivustream.website/logoz/icon.png"tvg-chno=""group-title="Piemonte":http-user-agent="",=== Piemonte ===
 http://patbuweb.com/iptv/e2liste/startend.avi
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/rete-biella.png"tvg-chno=""group-title="Piemonte":http-user-agent="",Rete Biella
@@ -716,12 +199,6 @@ https://tivusto.org/sh/vidnord
 https://stmv1.srvif.com/nazionale1/nazionale1/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/video-servizi-web-tv-rete-asti.png"tvg-chno=""group-title="Piemonte":http-user-agent="",Video Servizi Web Tv Rete Asti
 https://stmv1.srvif.com/asti/asti/playlist.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="":http-user-agent="",
-
 #EXTINF:-1 tvg-name=""tvg-id="Rai4K.it"tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/rai4k.png"tvg-chno="101"group-title="Rai":http-user-agent="Mozilla/5.0",Rai 4K (HbbTV)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://raievent10-elem-live.akamaized.net/hls/live/619189/raievent10/raievent10/playlist.m3u8
@@ -756,20 +233,10 @@ https://live02-seg.msr.cdn.mediaset.net/live/ch-bb/bb-clr.isml/index.m3u8
 https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/_definst_/smil:ch-01.smil/chunklist_b2192000_slita.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="RadioTvSerieA.it"tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/radiotvseriea.png"tvg-chno="899"group-title="Radio":http-user-agent="",Radio TV Serie A con RDS
 https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="":http-user-agent="",
-
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/sportitalia.png"tvg-chno=""group-title="SportItalia":http-user-agent="",SportItalia HD Plus
 https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sihd/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/sportitalia-solocalcio.jpg"tvg-chno=""group-title="SportItalia":http-user-agent="",SportItalia Solocalcio
 https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="":http-user-agent="",
-
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="":http-user-agent="",
-
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="TivuStream Lista":http-user-agent="",---LAST UPDATE 19-07-2025 H. 22.23---
 http://patbuweb.com/iptv/e2liste/startend.avi
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://tivustream.website/logoz/logo.png"tvg-chno=""group-title="Canali RAI":http-user-agent="",=== Canali RAI ===
@@ -865,8 +332,6 @@ https://5f22d76e220e1.streamlock.net/canale6/canale6/playlist.m3u8
 https://09bd1346f7a44cc9ac230cc1cb22ca4f.msvdn.net/live/S39249178/EnTK3KeeN1Eg/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/canale-italia.jpg"tvg-chno=""group-title="Altri Canali Nazionali":http-user-agent="",Canale Italia
 https://ovp-live.akamaized.net/ac115_live/canale1.smil/playlist.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/casa-italia-53.png"tvg-chno=""group-title="Altri Canali Nazionali":http-user-agent="",Casa Italia 53
-https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/euro-tv.jpg"tvg-chno=""group-title="Altri Canali Nazionali":http-user-agent="",Euro Tv
 https://5f22d76e220e1.streamlock.net/eurotv/eurotv/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/explorer.png"tvg-chno=""group-title="Altri Canali Nazionali":http-user-agent="",Explorer
@@ -1823,8 +1288,6 @@ https://tivusto.org/sh/enrix
 https://tivusto.org/sh/fcerrone
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/fantacalcio.JPG"tvg-chno=""group-title="Canali Sport Italiani":http-user-agent="",Fantacalcio
 https://tivusto.org/sh/fantacalcio
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/giocabet-tv.jpg"tvg-chno=""group-title="Canali Sport Italiani":http-user-agent="",GiocaBet Tv
-https://live1.giocabet.tv/stream/1/index.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/giornale-radio-tv-sport.png"tvg-chno=""group-title="Canali Sport Italiani":http-user-agent="",Giornale Radio Tv Sport
 https://5e73cf528f404.streamlock.net/GR_sport/livestream/chunklist_w1501899689.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/go-tv.png"tvg-chno=""group-title="Canali Sport Italiani":http-user-agent="",Go-Tv
@@ -1849,8 +1312,6 @@ https://96vd9q7ryxq7-hls-live.mariatvcdn.it/ms/ea0e4a77baa23e917acaf517042ac7d8.
 https://6zklxkbbdw9b-hls-live.mariatvcdn.it/msmotor/2f759512164fc6fe4acbed6a5648993a.sdp/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/media-sport-tv.png"tvg-chno=""group-title="Canali Sport Italiani":http-user-agent="",Media Sport Tv
 https://tivusto.org/sh/medsport
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/motori-tv.png"tvg-chno=""group-title="Canali Sport Italiani":http-user-agent="",Motori Tv
-https://5f22d76e220e1.streamlock.net/servizio01/servizio01/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/motorsport-tv.png"tvg-chno=""group-title="Canali Sport Italiani":http-user-agent="",Motorsport Tv
 https://stream10.xdevel.com/video7s977812-2253/stream/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/napolità.png"tvg-chno=""group-title="Canali Sport Italiani":http-user-agent="",Napolità
@@ -2277,12 +1738,8 @@ https://59d7d6f47d7fc.streamlock.net/elivebresciatv/elivebresciatv/chunklist_w12
 https://srvx1.selftv.video/espansione/smil:live.smil/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/l-auto-del-giorno.png"tvg-chno=""group-title="Lombardia":http-user-agent="",L' Auto del Giorno
 https://5f22d76e220e1.streamlock.net/autodelgiorno/autodelgiorno/playlist.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/lombardia-tv.png"tvg-chno=""group-title="Lombardia":http-user-agent="",Lombardia Tv
-https://5db313b643fd8.streamlock.net/lmbiatv/lmbiatv/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/milano-pavia-tv.png"tvg-chno=""group-title="Lombardia":http-user-agent="",Milano Pavia TV
 https://59d7d6f47d7fc.streamlock.net/telepavia/telepavia/playlist.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/onda-novara-tv.png"tvg-chno=""group-title="Lombardia":http-user-agent="",Onda Novara TV
-https://585b674743bbb.streamlock.net/9006/9006/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/one-tv-canale-79.jpg"tvg-chno=""group-title="Lombardia":http-user-agent="",One TV Canale 79
 https://media2.streambrothers.com:19360/8160/8160.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/passione-lotto-tv.jpg"tvg-chno=""group-title="Lombardia":http-user-agent="",Passione Lotto Tv
@@ -2329,8 +1786,6 @@ https://5ce9406b73c33.streamlock.net/TeleMantova/livestream/chunklist_w219870635
 https://tivusto.org/sh/televallassina
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/telenova.png"tvg-chno=""group-title="Lombardia":http-user-agent="",Telenova Milano
 https://64b16f23efbee.streamlock.net/telenova/telenova/playlist.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/telereporter.png"tvg-chno=""group-title="Lombardia":http-user-agent="",Telereporter
-https://5f22d76e220e1.streamlock.net/telereporter/telereporter/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/tsn-tele-sondrio-news.png"tvg-chno=""group-title="Lombardia":http-user-agent="",Tsn Tele Sondrio News
 https://189790-castr.akamaized.net/633d685a281cd401ae82c2f7/live_bc04bf70449f11ed80952100db9e5fd9/tracks-v1a1/rewind-3600.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/unica-tv.png"tvg-chno=""group-title="Lombardia":http-user-agent="",Unica Tv
@@ -2825,8 +2280,6 @@ https://5e73cf528f404.streamlock.net/RTR99TV/livestream/chunklist_w2019426144.m3
 https://57068da1deb21.streamlock.net/radio104/radio104/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/radio-105.png"tvg-chno=""group-title="Canali Musicali (Web Radio)":http-user-agent="",Radio 105
 https://live02-seg.msr.cdn.mediaset.net/live/ch-ec/ec-clr.isml/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/radio-4-you-tv.png"tvg-chno=""group-title="Canali Musicali (Web Radio)":http-user-agent="",Radio 4 You Tv
-https://streamsrv2.nets-sr.com:19360/4youtv/4youtv.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/radio-51-tv-lombardia.png"tvg-chno=""group-title="Canali Musicali (Web Radio)":http-user-agent="",Radio 51 Tv Lombardia
 http://wms.shared.streamshow.it/canale51/canale51/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/radio-7-note-tv.JPG"tvg-chno=""group-title="Canali Musicali (Web Radio)":http-user-agent="",Radio 7 Note Tv
@@ -2845,8 +2298,6 @@ https://ssh101.bozztv.com/ssh101/LaMusicaIntorno/playlist.m3u8
 http://stream3.xdevel.com/video0s975447-164/stream/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/radio-azzurra-tv.jpg"tvg-chno=""group-title="Canali Musicali (Web Radio)":http-user-agent="",Radio Azzurra Tv
 https://59d7d6f47d7fc.streamlock.net/azzurratv/azzurratv/playlist.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/radio-birikina-tv.png"tvg-chno=""group-title="Canali Musicali (Web Radio)":http-user-agent="",Radio Birikina TV
-https://56b50ada2d659.streamlock.net/RadioBirikinaTV/livestream/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/radio-brianza-tv.png"tvg-chno=""group-title="Canali Musicali (Web Radio)":http-user-agent="",Radio Brianza Tv
 https://57068da1deb21.streamlock.net/radiorbs/radiorbs/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://odmsto.com/uploads/tv_image/sm/radio-bussola-24-tv.png"tvg-chno=""group-title="Canali Musicali (Web Radio)":http-user-agent="",Radio Bussola 24 Tv
