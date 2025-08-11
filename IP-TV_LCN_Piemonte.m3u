@@ -885,7 +885,7 @@ https://jmp2.uk/sam-ITAJ3800001Z4.m3u8
 #EXTINF:-1 tvg-name="Cedar Cove - La Serie completa" tvg-id="IT500003NO" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT500003NO_20250218T040338SQUARE.png" tvg-chno="4239" group-title="Samsung Channels":
 #EXTVLCOPT:http-user-agent=,Cedar Cove - La Serie completa
 https://jmp2.uk/sam-IT500003NO.m3u8
-#EXTINF:-1 tvg-name="CG Grandi Samsung Channels:  Bollenti spiriti & Co" tvg-id="ITBA14000093A" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBA14000093A_20250624T020603SQUARE.png" tvg-chno="4871" group-title="Samsung Channels":
+#EXTINF:-1 tvg-name="CG Grandi Samsung Channels: Bollenti spiriti & Co" tvg-id="ITBA14000093A" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBA14000093A_20250624T020603SQUARE.png" tvg-chno="4871" group-title="Samsung Channels":
 #EXTVLCOPT:http-user-agent=,CG Grandi Samsung Channels:  Bollenti spiriti & Co
 https://jmp2.uk/sam-ITBA14000093A.m3u8
 #EXTINF:-1 tvg-name="Cine Paura" tvg-id="IT3600005AL" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3600005AL_20250708T031017SQUARE.png" tvg-chno="4003" group-title="Samsung Channels":
